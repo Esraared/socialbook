@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Facebook</title>
+    <!-- <link href="https://fontawesome.com/search?q=locaion&o=r">    -->
+ <body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img class="logo" src="imge/logo.png" alt="">
+            </a>
+            <ul>
+                <li><img src="imge/notification.png" alt=""></li>
+                <li><img src="imge/inbox.png" alt=""></li>
+                <li><img src="imge/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="imge/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="imge/profile-pic(2).png" alt="">
+            </div>
+            
+        </div>
+        <!-- setting menu ---------------------------------------------------- -->
+          <div class="setting-menu">
+           
+            <div id="dark-btn">
+               <span></span>
+            </div>
+
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profial">
+                    <img src="imge/profile-pic(2).png" alt="">
+                    <div>
+                        <p>Esraa Reda</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profial">
+                    <img src="imge/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                  <div class="setting-links">
+                    <img class="settings-icon" src="imge/setting.png" alt="">
+                    <a href="#">Settings & Privacy <img src="imge/arrow.png" width="10px"></a>
+                  </div>
+                  <div class="setting-links">
+                    <img class="settings-icon" src="imge/help.png" alt="">
+                    <a href="#">Help & Support <img src="imge/arrow.png" width="10px"></a>
+                  </div>
+                  <div class="setting-links">
+                    <img class="settings-icon" src="imge/display.png" alt="">
+                    <a href="#">Display & Accessibility <img src="imge/arrow.png" width="10px"></a>
+                  </div>
+                  <div class="setting-links">
+                    <img class="settings-icon" src="imge/logout.png" alt="">
+                    <a href="#">LogOut<img src="imge/arrow.png" width="10px"></a>
+                  </div>
+
+            </div>
+           
+          </div>
+
+    </nav>
+    <div class="container">
+        <!-- --------------------------------------left sidebar--------------------------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="imge/news.png" alt="">Latest News</a>
+                <a href="#"><img src="imge/friends.png" alt="">Friends</a>
+                <a href="#"><img src="imge/group.png" alt="">Group</a>
+                <a href="#"><img src="imge/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="imge/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>You Shortcuts</p>
+                <a href="#"><img src="imge/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="imge/shortcut-2.png" alt="">Wed Design Course</a>
+                <a href="#"><img src="imge/shortcut-3.png" alt="">Full stack Development</a>
+                <a href="#"><img src="imge/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+        <!------------------------------------------------ main content -------------------------------------------- -->
+        <div class="main-contant">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="imge/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="imge/status-20.png" alt="">
+                    <p>Bravo</p>
+                </div>
+                <div class="story story3">
+                    <img src="imge/member-2.png" alt="">
+                    <p>Mohamed Bash</p>
+                </div>
+                <div class="story story4">
+                    <img src="imge/member-3.png" alt="">
+                    <p>Esraa Reda</p>
+                </div>
+                <div class="story story5">
+                    <img src="imge/member-4.png" alt="">
+                    <p>Karim Mohamed</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profial">
+                    <img src="imge/profile-pic(2).png" alt="">
+                    <div>
+                        <p>Esraa Reda</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea  rows="3" placeholder="What's on your mind, Esraa?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="imge/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="imge/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="imge/feeling.png" alt=''>Feling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profial">
+                        <img src="imge/profile-pic(2).png" alt="">
+                        <div>
+                            <p>Esraa Reda</p>
+                            <span>Saturday, 13 2024, 12:46AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imge/more.png" alt=""></a>
+                </div>
+                
+                <p class="post-text">Lorem ipsum dolor sit,<span>@Esraa Reda</span> amet consectetur adipisicing elit. Odit sit ipsa
+                     fugit aliquid soluta aliquam! <a href="">#Esraa Reda</a><a href="">#YouTubeEsraa Reda</a></p>
+                     <img class="post-img" src="imge/feed-image-1.png" alt="">
+
+                     <div class="post-row">
+                        <div class="activite-icon">
+                           <div><img src="imge/like-blue.png" alt="">120</div>
+                           <div><img src="imge/comments.png" alt="">45</div>
+                           <div><img src="imge/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profail-icon">
+                            <img src="imge/profile-pic(2).png" alt="">
+                        </div>
+                     </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profial">
+                        <img src="imge/profile-pic(2).png" alt="">
+                        <div>
+                            <p>Esraa Reda</p>
+                            <span>Saturday, 13 2024, 12:46AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imge/more.png" alt=""></a>
+                </div>
+                
+                <p class="post-text">Like and share this video with friends, tag <span>@Esraa Reda</span> facebook page on your post. Ask your doubts in the comments
+                      <a href="">#Esraa Reda</a><a href="">#YouTubeEsraa Reda</a></p>
+                     <img class="post-img" src="imge/feed-image-2.png" alt="">
+
+                     <div class="post-row">
+                        <div class="activite-icon">
+                           <div><img src="imge/like.png" alt="">120</div>
+                           <div><img src="imge/comments.png" alt="">45</div>
+                           <div><img src="imge/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profail-icon">
+                            <img src="imge/profile-pic(2).png" alt="">
+                        </div>
+                     </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profial">
+                        <img src="imge/profile-pic(2).png" alt="">
+                        <div>
+                            <p>Esraa Reda</p>
+                            <span>Saturday, 13 2024, 12:46AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imge/more.png" alt=""></a>
+                </div>
+                
+                <p class="post-text">Like and share this video with friends, tag <span>@Esraa Reda</span> facebook page on your post. Ask your doubts in the comments
+                      <a href="">#Esraa Reda</a><a href="">#YouTubeEsraa Reda</a></p>
+                     <img class="post-img" src="imge/feed-image-3.png" alt="">
+
+                     <div class="post-row">
+                        <div class="activite-icon">
+                           <div><img src="imge/like.png" alt="">120</div>
+                           <div><img src="imge/comments.png" alt="">45</div>
+                           <div><img src="imge/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profail-icon">
+                            <img src="imge/profile-pic(2).png" alt="">
+                        </div>
+                     </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profial">
+                        <img src="imge/profile-pic(2).png" alt="">
+                        <div>
+                            <p>Esraa Reda</p>
+                            <span>Saturday, 13 2024, 12:46AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imge/more.png" alt=""></a>
+                </div>
+                
+                <p class="post-text">Like and share this video with friends, tag <span>@Esraa Reda</span> facebook page on your post. Ask your doubts in the comments
+                      <a href="">#Esraa Reda</a><a href="">#YouTubeEsraa Reda</a></p>
+                     <img class="post-img" src="imge/feed-image-4.png" alt="">
+
+                     <div class="post-row">
+                        <div class="activite-icon">
+                           <div><img src="imge/like.png" alt="">120</div>
+                           <div><img src="imge/comments.png" alt="">45</div>
+                           <div><img src="imge/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profail-icon">
+                            <img src="imge/profile-pic(2).png" alt="">
+                        </div>
+                     </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profial">
+                        <img src="imge/profile-pic(2).png" alt="">
+                        <div>
+                            <p>Esraa Reda</p>
+                            <span>Saturday, 13 2024, 12:46AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imge/more.png" alt=""></a>
+                </div>
+                
+                <p class="post-text">Like and share this video with friends, tag <span>@Esraa Reda</span> facebook page on your post. Ask your doubts in the comments
+                      <a href="">#Esraa Reda</a><a href="">#YouTubeEsraa Reda</a></p>
+                     <img class="post-img" src="imge/feed-image-5.png" alt="">
+
+                     <div class="post-row">
+                        <div class="activite-icon">
+                           <div><img src="imge/like.png" alt="">120</div>
+                           <div><img src="imge/comments.png" alt="">45</div>
+                           <div><img src="imge/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profail-icon">
+                            <img src="imge/profile-pic(2).png" alt="">
+                        </div>
+                     </div>
+            </div>
+
+            <button class="load-more-btn" type="button">Load More</button>
+        </div>
+        <!-- ---------------------------------------------right sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Madia</h4>
+                    <p><img class="imge" src="imge/location.png" alt="">Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><img class="img" src="imge/location.png" alt="">Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img class="sidebar-ads" src="imge/advertisement.png" alt="">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="imge/status-200.png" alt="">
+                </div>
+                <p>Bravo</p>
+            </div>
+           
+            <div class="online-list">
+                <div class="online">
+                    <img src="imge/member-1.png" alt="">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="imge/member-2.png" alt="">
+                </div>
+                <p>mohamed Bash</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="imge/member-3.png" alt="">
+                </div>
+                <p>Esraa Reda</p>
+            </div>
+        </div>
+
+           
+    </div>
+
+
+
+<div class="footer">
+    <p>Copyright 2024 - By @Esraa reda Kamal @YouTube</p>
+</div>    
+<script src="script.js"></script>
+</body>
+</html>
